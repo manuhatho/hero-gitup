@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../WebHome-TP"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WEBMASTER"
+	}
+}

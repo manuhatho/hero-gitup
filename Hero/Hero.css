@@ -1,0 +1,112 @@
+body{
+   background: linear-gradient(45deg,rgb(244, 242, 237),rgb(222, 115, 168),rgb(108, 154, 219) );
+}
+.container-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+}
+
+a{
+    color: rgb(0, 0, 0);
+}
+
+.container-1 img{
+    height: 60px;
+    width: 60px;
+    /* pour adapter aux dimensions de l'image */
+    object-fit: cover; 
+    border-radius: 50%;
+    margin: 10px;
+   
+    
+    
+}
+    
+
+
+
+
+.nav{
+    display: flex;
+    gap: 30px; 
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+h1{
+    color: rgb(255, 0, 106);
+    text-align: center;
+}
+
+.container-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 450px;
+    margin: 50px;
+}
+.button{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+input{
+    background-color: rgb(73, 135, 242);
+    height: 25px;
+    border: 1px solid;
+    border-radius: 0% 20%;
+    color: aliceblue;
+}
+
+.container-2 img{
+    border-radius: 0% 20% ;
+    box-shadow: 5px 5px 25px rgb(240, 26, 116);
+    
+    
+
+}
+
+.container-3{ 
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit, minmax(150px, 1fr)
+    );
+    margin: 50px;
+  
+
+}
+.sec-right2 {
+    display: flex;
+    
+    
+}
+.sec-right2 img{
+    border-radius: 20%;
+}
+
+.box{
+    text-align: center;
+    
+    
+}
+.box img{
+    box-shadow: 5px 5px 25px rgb(52, 127, 246);
+}
+
+.container-4{
+    display: flex;
+    gap: 100px;
+    margin: 50px;
+}
+
+.box-im{
+    text-align: center;
+    
+}
+.box-im img{
+    
+    
+  
+    
+}
